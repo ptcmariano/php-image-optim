@@ -46,3 +46,13 @@ This example demonstrates the optimisation of a PNG file, by chaining several co
         ->chainCommand($pngCrush)
         ->chainCommand($pngOut);
     $optim->optimise();
+
+
+Founding binaries:
+--------
+
+binary can be found in: 
+ https://github.com/imagemin/optipng-bin/blob/master/vendor/linux/x86/optipng
+ 
+and the command to get maybe:
+`wget https://github.com/imagemin/optipng-bin/raw/master/vendor/linux/x86/optipng
